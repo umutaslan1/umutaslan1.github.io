@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat; /* Prevent background image from repeating */
     font-family: Arial, sans-serif;
     color: white; /* Text color */
-    background-color: rgba(0, 0, 0, 0.8); /* Background color with 0.5 opacity (adjust as needed) */
+    background-color: rgba(0, 0, 0, 0.3); /* Background color with 0.5 opacity (adjust as needed) */
 }
 h1 {
     font-size: 24px;
