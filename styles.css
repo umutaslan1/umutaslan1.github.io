@@ -4,11 +4,11 @@ body, h1, h2, h3, p, ul, li, a {
     padding: 0;
 }
 
-/* Add a background color and font styles */
+/* Add a high-tech background and font styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
 }
 
 /* Header styles */
@@ -26,6 +26,7 @@ body {
 .header h1 a {
     font-size: 24px;
     font-weight: bold;
+    color: #00c2ff;
 }
 
 nav ul {
@@ -39,7 +40,7 @@ nav ul li {
 
 /* Hero section styles */
 .hero {
-    background: url('hero-bg.jpg') center/cover no-repeat;
+    background: url('tech-bg.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -48,16 +49,17 @@ nav ul li {
 .btn {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #007BFF;
+    background-color: #00c2ff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
+    margin-top: 20px;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #007BFF;
 }
 
 /* Key Features section styles */
@@ -70,6 +72,7 @@ nav ul li {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
+    color: #00c2ff;
 }
 
 .feature {
@@ -80,6 +83,7 @@ nav ul li {
 .feature h3 {
     font-size: 24px;
     font-weight: bold;
+    color: #111;
 }
 
 /* Footer styles */
