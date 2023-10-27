@@ -128,3 +128,11 @@ img {
     list-style: none; /* Remove bullet points from the list */
     padding: 0;
 }
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Optional: Full viewport height */
+}
+
