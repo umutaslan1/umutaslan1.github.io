@@ -104,3 +104,19 @@ img {
     height: auto; /* Maintain the image's aspect ratio */
     border: 1px solid #ccc; /* Add a border around the image */
 }
+/* Contact Page Styles */
+.contact-page {
+    background-color: #f8f8f8; /* Adjust the background color to your liking */
+    padding: 20px;
+}
+
+.contact-info {
+    font-size: 18px; /* Increase the font size for better readability */
+    line-height: 1.6; /* Adjust line height to increase spacing between lines of text */
+    margin: 20px 0; /* Add margin for spacing around the contact info */
+}
+
+.contact-info ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0;
+}
