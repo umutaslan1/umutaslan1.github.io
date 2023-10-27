@@ -118,9 +118,9 @@ img {
 }
 
 .contact-info {
-    font-size: 18px; /* Increase the font size for better readability */
-    line-height: 1.6; /* Adjust line height to increase spacing between lines of text */
-    margin: 20px 0; /* Add margin for spacing around the contact info */
+    display: flex;
+    justify-content: center; /* Center-align text horizontally */
+    align-items: center; /* Center-align text vertically */
 }
 
 .contact-info ul {
