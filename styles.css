@@ -6,9 +6,9 @@ body, h1, h2, h3, p, ul, li, a {
 
 /* Add a dark background and font styles */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #111;
-    color: #ddd; /* Light gray text */
+    background-image: url('gezegenler.jpg'); /* Replace with the path to your background image */
+    background-size: cover; /* Adjust background size to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
 }
 
 /* Header styles */
