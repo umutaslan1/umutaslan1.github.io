@@ -99,3 +99,8 @@ nav ul li {
     margin: 0 auto;
     padding: 0 20px;
 }
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    border: 1px solid #ccc; /* Add a border around the image */
+}
