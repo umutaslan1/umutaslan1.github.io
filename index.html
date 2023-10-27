@@ -4,56 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Realistic Website</title>
+    <title>Your Website Theme</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <h1><a href="#">Your Logo</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="hero">
-        <!-- ... (Hero section content as in the previous answer) -->
+        <div class="container">
+            <h1>Welcome to Your Website</h1>
+            <p>Your message goes here.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
     </section>
     <section class="features">
-        <!-- ... (Feature section content as in the previous answer) -->
-    </section>
-    <section class="collapsible-section">
-        <button class="collapsible-button">Open Section</button>
-        <div class="collapsible-content">
-            <h2>Collapsible Section</h2>
-            <p>This is a collapsible section with hidden content. Click the button to open and close it.</p>
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Description of feature 1.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Description of feature 2.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 3</h3>
+                <p>Description of feature 3.</p>
+            </div>
         </div>
     </section>
     <section class="gallery">
-        <!-- ... (Gallery section content as in the previous answer) -->
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Add your portfolio items here -->
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2023 Your Realistic Website</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Your Website Theme</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
-    <script>
-    const collapsibleButtons = document.querySelectorAll(".collapsible-button");
-
-    collapsibleButtons.forEach((button) => {
-        button.addEventListener("click", function () {
-            const content = this.nextElementSibling;
-
-            if (content.style.display === "block" || content.style.display === "") {
-                content.style.display = "none";
-                this.innerText = "Open Section";
-            } else {
-                content.style.display = "block";
-                this.innerText = "Close Section";
-            }
-        });
-    });
-</script>
 </body>
 </html>
