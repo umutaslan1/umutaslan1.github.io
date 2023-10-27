@@ -1,47 +1,76 @@
-/* ... (previous styles) */
-
-/* Fancy hero section styles */
-.hero {
-    background: url('hero-bg.jpg') center/cover no-repeat;
-    color: #fff;
-    text-align: center;
-    padding: 200px 0;
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
 }
 
-/* Fancy button style */
+/* Add a sci-fi background and font styles */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0f0f0f;
+    color: #00c2ff;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: transparent;
+    color: #00c2ff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00c2ff;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 200px 0;
+    background-color: transparent;
+}
+
+/* Style the feature section */
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.feature {
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: transparent;
+    color: #00c2ff;
+}
+
+/* Button style */
 .btn {
     display: inline-block;
-    padding: 15px 30px;
-    background-color: #ff4500;
-    color: #fff;
+    padding: 10px 20px;
+    background-color: #00c2ff;
+    color: #0f0f0f;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #ff7000;
-}
-
-/* Stylish gallery section */
-.gallery {
-    text-align: center;
-    padding: 100px 0;
-}
-
-.gallery h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-.image {
-    display: inline-block;
-    margin: 20px;
-}
-
-.image img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #0056b3;
 }
