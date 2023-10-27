@@ -113,6 +113,7 @@ img {
 }
 /* Contact Page Styles */
 .contact-page {
+    text-align: center;
     background-color: #f8f8f8; /* Adjust the background color to your liking */
     padding: 20px;
 }
