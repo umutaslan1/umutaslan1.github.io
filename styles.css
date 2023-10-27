@@ -1,75 +1,47 @@
-/* Reset some default styles */
-body, h1, h2, p, ul {
-    margin: 0;
-    padding: 0;
-}
+/* ... (previous styles) */
 
-/* Add a background color and font styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-/* Style the header and navigation */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Style the hero section */
+/* Fancy hero section styles */
 .hero {
-    text-align: center;
-    padding: 100px 0;
-    background-color: #444;
+    background: url('hero-bg.jpg') center/cover no-repeat;
     color: #fff;
-}
-
-/* Style the feature section */
-.features {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
-}
-
-.feature {
     text-align: center;
-    margin: 0 20px;
+    padding: 200px 0;
 }
 
-/* Style the footer */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-}
-
-/* Button style */
+/* Fancy button style */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
+    padding: 15px 30px;
+    background-color: #ff4500;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
+    font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #ff7000;
+}
+
+/* Stylish gallery section */
+.gallery {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.image {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
