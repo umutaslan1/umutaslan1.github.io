@@ -24,8 +24,21 @@
         <div class="container">
             <h1>Welcome</h1>
             <p>This is my place</p>
-            <a href="#" class="btn">more</a>
+            <a href="#" class="btn" id="moreButton">More</a>
         </div>
+
+<script>
+    // Find the "More" button by its id
+    var moreButton = document.getElementById("moreButton");
+
+    // Add a click event listener to the button
+    moreButton.addEventListener("click", function() {
+        // Define what should happen when the button is clicked.
+        // For example, you can show additional content, open a modal, or navigate to a new page.
+        alert("This is where you can add your custom functionality.");
+    });
+</script>
+
 
     </section>
     <section class="gallery">
