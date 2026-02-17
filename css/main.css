@@ -1660,3 +1660,41 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Mevcut #bg div'inin arkasında veya önünde olmasına göre ayarla */
+    opacity: 0.4; /* Videonun içeriği boğmaması için şeffaflık */
+    filter: grayscale(100%) contrast(120%); /* Temanın atmosferine uyum sağlaması için */
+    object-fit: cover;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid yapısı */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    text-align: center;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+}
+
+.feature-box .icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
